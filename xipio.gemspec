@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["jakeonrails@gmail.com"]
   spec.summary       = %q{Opens your Pow.cx project on xip.io using your local IP}
   spec.description   = %q{Opens your Pow.cx project on xip.io using your local IP}
-  spec.homepage      = ""
+  spec.homepage      = "https://github.com/jakeonrails/xipio"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
