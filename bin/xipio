@@ -1,0 +1,10 @@
+#!/usr/bin/env ruby
+
+begin
+  require 'xipio'
+rescue LoadError
+  require 'rubygems'
+  require 'xipio'
+end
+
+Xipio.run
