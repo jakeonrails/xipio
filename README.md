@@ -1,6 +1,6 @@
 # Xipio
 
-TODO: Write a gem description
+The only thing xipio does is open your [pow.cx](pow.cx) project using [xip.io](xip.io). I built it because I got tired of constantly checking my IP address to type into the url.
 
 ## Installation
 
@@ -18,7 +18,21 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+After installing xipio, on the command line, run this command:
+
+    my_project $ xipio
+
+And your browser will open up to http://my_project.your.local.ip.address.xip.io
+
+If your current folder/directory is not the name of your pow project, you can supply a project name as an argument:
+
+    other $ xipio my_project
+    
+And the correct URL will be used.
+
+## Bonus
+
+If you have an Android phone, you can quickly preview your app on your phone using the [Google Chrome to Phone extension](https://chrome.google.com/webstore/detail/google-chrome-to-phone-ex/oadboiipflhobonjjffjbfekfjcgkhco). Simply run xipio, and then click the extension icon in your browser, and moments later you are previewing your app on your phone browser!
 
 ## Contributing
 
